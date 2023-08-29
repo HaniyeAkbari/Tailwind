@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/output.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <main class="bg-gray-950">
+    <div class=" w-full h-[50px] bg-[#93ecaa] overflow-hidden ">
+      <div class=" h-full  animate-scroll whitespace-nowrap flex items-center  ">
+        <span class="text-4xl inline-block min-w-full text-black capitalize font-tektur">the most anticipated music
+          event . the most anticipated music event . the most anticipated music event . the most anticipated music event
+          . the most anticipated music event</span>
+      </div>
+    </div>
+    <header class="h-[100vh] bg-gray-950 w-full sm:py-5 md:py-2  ">
+      <section class="flex justify-between items-center  w-[92%] h-[45px] mx-[4%] ">
+        <figure class="flex h-1/2"><img class="h-full w-full" src="img/logo.png" alt="logo"></figure>
+        <div class="flex items-center">
+          <a href=""><i
+              class="bi-grid-3x3-gap-fill transition duration-500 hover:text-[#E7F635] text-white text-2xl px-5 "></i></a>
+          <a href=""><i
+              class="bi-cart-fill transition duration-500 hover:text-[#E7F635] text-white text-2xl px-5 "></i></a>
+          <a href=""><i
+              class="bi-search transition duration-500 hover:text-[#E7F635] text-white text-2xl px-5 "></i></a>
+        </div>
+      </section>
+      <div class="flex justify-center items-center ">
+        <h1
+          class="uppercase text-white font-tektur font-extrabold text-5xl lg:text-7xl w-[60%] text-center mt-[100px] lg:mt-[150px] lg:leading-[80px]">
+          this music festival <span class="text-[#E7F635]">whill be the brightest</span> </h1>
+      </div>
+      <div class="fixed bottom-2 right-2  bg-[#93ecaa] w-[320px] h-[100px] z-[100] flex justify-center items-center" id="popIn">
+        <i class="bi-x-circle text-lg font-extrabold cursor-pointer p-2 transition duration-1000" onclick="pop()"></i><h1 class="capitalize font-tektur font-extrabold text-xl">designed by <span class="shadow-white">haniye akbari</span></h1>
+      </div>
+      <div id="countdown" class="flex justify-center items-start mt-12">
+        <ul class="flex relative">
+          <li class="text-white text-4xl"><span class="px-5" id="days"></span>:</li>
+          <li class="text-white text-4xl"><span class="px-5" id="hours"></span>:</li>
+          <li class="text-white text-4xl"><span class="px-5" id="minutes"></span>:</li>
+          <li class="text-white text-4xl"><span class="px-5" id="seconds"></span></li>
+          <ul class="flex absolute top-10 left-[20px]">
+            <li class="text-white text-lg capitalize"><span class="px-2">days</span></li>
+            <li class="text-white text-lg capitalize"><span class="px-2">hours</span></li>
+            <li class="text-white text-lg capitalize"><span class="px-2">minutes</span></li>
+            <li class="text-white text-lg capitalize"><span class="px-2">seconds</span></li>
+          </ul>
+        </ul>
+      </div>
+    </header>
+    <section class="h-[50vh] bg-gray-950 w-full overflow-hidden sm:pt-10 lg:pt-36">
+      <div class="md:w-full lg:w-[110%] h-[50px] bg-[#dcec93] overflow-hidden lg:rotate-6 lg:translate-x-[-80px]  ">
+        <div class=" h-full  animate-scroll whitespace-nowrap flex items-center    ">
+          <span class="text-4xl inline-block min-w-full text-black  capitalize font-tektur">the best concert program and
+            artists .the best concert program and artists .the best concert program and artists .the best concert
+            program and artists .</span>
+        </div>
+      </div>
+      <div
+        class="md:w-full lg:w-[110%] h-[50px] bg-[#cfc0d7]  overflow-hidden lg:rotate-[-6deg] lg:translate-x-[-80px] lg:translate-y-[-50px] ">
+        <div class=" h-full  animate-scroll-reverse whitespace-nowrap flex items-center  ">
+          <span class="text-4xl inline-block min-w-full text-black capitalize font-tektur">our music gives emotions and
+            energizes .our music gives emotions and energizes .our music gives emotions and energizes .our music gives
+            emotions and energizes .</span>
+        </div>
+      </div>
+    </section>
+    <section class="h-full  w-full flex flex-wrap justify-center mt-[-90px] md:mt-0 ">
+      <div class="w-[80%] pt-2">
+        <span class="capitalize text-white font-tektur flex w-full">true talent</span>
+        <h2 class="capitalize  text-white font-tektur text-6xl py-10 border-b-2">meet our line-up</h2>
+        <h3
+          class="capitalize hover:text-[#9b9b9b] transition duration-600 text-white font-tektur text-4xl py-6  border-b-2 border-b-[rgb(255,255,255,0.1)] group relative">
+          john doe <span class="capitalize text-[18px] text-[#9b9b9b]">/bass-guitar , vocals & strings</span><img
+            class="hidden group-hover:flex absolute end-0 lg:end-10 lg:top-[-40%] lg:w-[20%] bottom-0 w-[18%]"
+            src="img/image-23.jpg" alt=""></h3>
+        <h3
+          class="capitalize hover:text-[#9b9b9b] transition duration-600 text-white font-tektur text-4xl py-6  border-b-2 border-b-[rgb(255,255,255,0.1)] group relative">
+          john doe <span class="capitalize text-[18px] text-[#9b9b9b]">/playing percussion & drums</span><img
+            class="hidden group-hover:flex absolute end-0 lg:end-10 lg:top-[-40%] lg:w-[20%] bottom-0 w-[18%]"
+            src="img/Team6.jpg" alt=""></h3>
+        <h3
+          class="capitalize hover:text-[#9b9b9b] transition duration-600 text-white font-tektur text-4xl py-6  border-b-2 border-b-[rgb(255,255,255,0.1)] group relative">
+          john doe <span class="capitalize text-[18px] text-[#9b9b9b]">/bass-guitar , vocals & soloist</span><img
+            class="hidden group-hover:flex absolute end-0 lg:end-10 lg:top-[-40%] lg:w-[20%] bottom-0 w-[18%]"
+            src="img/48_3-bg-min.jpg" alt=""></h3>
+        <h3
+          class="capitalize hover:text-[#9b9b9b] transition duration-600 text-white font-tektur text-4xl py-6  border-b-2 border-b-[rgb(255,255,255,0.1)] group relative">
+          john doe <span class="capitalize text-[18px] text-[#9b9b9b]">/keyboard , guitar & vocals</span><img
+            class="hidden group-hover:flex absolute end-0 lg:end-10 lg:top-[-40%] lg:w-[20%] bottom-0 w-[18%]"
+            src="img/image-62.jpg" alt=""></h3>
+        <h3
+          class="capitalize hover:text-[#9b9b9b] transition duration-600 text-white font-tektur text-4xl py-6  border-b-2 border-b-[rgb(255,255,255,0.1)] group relative">
+          john doe <span class="capitalize text-[18px] text-[#9b9b9b]">/playing percussion & drums</span><img
+            class="hidden group-hover:flex absolute end-0 lg:end-10 lg:top-[-40%] lg:w-[20%] bottom-0 w-[18%]"
+            src="img/image-30.jpg" alt=""></h3>
+      </div>
+    </section>
+    <section class="h-full  w-full mt-12 flex flex-wrap justify-center ">
+      <div class="flex flex-wrap w-[80%] justify-center">
+        <figure class="lg:w-[35%] lg:flex animate-rolling  "><img src="img/about_us_white_2.svg" alt=""></figure>
+        <div class="w-[100%] lg:w-[60%] text-white uppercase lg:mt-0 mt-12 lg:px-5 lg:ms-5 ">
+          <span class="font-tektur ">the main event</span>
+          <h2 class="font-tektur text-6xl mt-3">our unblievable music festival</h2>
+          <p class="font-yanone text-2xl text-justify capitalize mt-[40px]">Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Nemo laborum exercitationem beatae, molestias voluptates minus nisi iusto architecto
+            consequuntur magni, veniam, at hic sit asperiores omnis et provident nihil? Maxime!</p>
+          <div
+            class="mt-5 w-[160px] h-[50px] bg-[#93ecaa] hover:bg-[#62d882] transition duration-500 text-[#2d2d2d] font-extrabold ">
+            <a class="font-tektur flex justify-center uppercase items-center w-full h-full" href="#">festival info</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="h-full w-full py-12 flex flex-wrap justify-center ">
+      <div class="flex flex-wrap w-[80%]">
+        <figure class="w-full lg:w-[40%] p-6"><img
+            class="w-full filter grayscale hover:grayscale-0 flex transition duration-500" src="img/image-4.jpg" alt="">
+        </figure>
+        <figure class="w-full lg:w-[60%] p-6 flex items-center"><img
+            class="w-full filter grayscale hover:grayscale-0 flex transition duration-500" src="img/image-5-890x664.jpg"
+            alt=""></figure>
+        <figure class="w-full lg:w-1/2 p-6"><img
+            class="w-full filter grayscale hover:grayscale-0 flex transition duration-500" src="img/image-1-890x664.jpg"
+            alt=""></figure>
+        <figure class="w-full lg:w-1/2 p-6"><img
+            class="w-full filter grayscale hover:grayscale-0 flex transition duration-500" src="img/image-3-890x664.jpg"
+            alt=""></figure>
+      </div>
+    </section>
+    <section class="h-full w-full py-20 flex flex-wrap justify-center bg-white ">
+      <div class="w-[80%] flex flex-wrap justify-center m-4">
+        <input type="email" placeholder="Enter Your Email Address"
+          class="w-[60%] h-[40px] lg:me-20 me-2 border-0  border-b-2 border-black focus:outline-0 text-[#3f9255] font-yanone tracking-wider text-xl ">
+        <a class="flex h-[40px] items-center font-yanone text-2xl hover:text-[#3f9255] transition duration-500 border-b-2 border-black"
+          href=""><i class="bi-envelope mx-3"></i>subscribe</a>
+        <div class="w-[80%] mt-3"><input type="checkbox" name="policy" id="policy"><span
+            class="font-yanone tracking-wider ps-3">I agree to the <a href="" class="underline">Privacy
+              Policy</a>.</span></div>
+      </div>
+    </section>
+    <section class="h-full w-full bg-white lg:pt-12 pt-6 flex flex-wrap justify-center ">
+      <div class="w-[80%] flex flex-wrap">
+        <figure class="lg:w-[45%] lg:h-[80%]  flex items-center"><img class="h-full" src="img/Ticket-2x.png" alt="">
+        </figure>
+        <video src="" autoplay muted controls poster="img/image-4.jpg"
+          class="lg:w-[55%] lg:h-[80%] p-2 relative"></video>
+      </div>
+    </section>
+    <section class="h-full w-full bg-white lg:pt-0 pt-10 pb-10 flex flex-wrap justify-center">
+      <div class="flex flex-wrap lg:w-[80%] w-full">
+        <div class="flex flex-wrap border-b-2 border-black pb-6  w-full">
+          <span class="font-tektur uppercase ">calender</span>
+          <h2 class="font-tektur text-6xl w-full mt-3 uppercase flex flex-wrap justify-between  ">event schedule<span
+              class="cursor-pointer font-bold text-[15px] lg:mt-0 mt-3 flex items-center ">view more <i
+                class="bi-arrow-up-right"></i></span></h2>
+          <div
+            class="flex lg:w-[80%] w-full justify-between text-[16px] lg:mt-3 mt-6 font-bold lg:text-[18px] font-tektur">
+            <span>Day #1 - may 01.2021</span><span>Day #2 - may 02.2021</span><span>Day #3 - may 03.2021</span>
+          </div>
+        </div>
+      </div>
+      <section class="flex flex-wrap w-full justify-center ">
+        <div
+          class="flex lg:w-[80%] w-full lg:text-[18px] text-[14px] justify-between mt-5 pb-6 border-b border-gray-400 font-tektur uppercase">
+          <span>10:00 - 12:00 am</span><span>the world of blues</span><span>ashton porter</span><span>new york</span>
+        </div>
+        <div
+          class="flex lg:w-[80%] w-full lg:text-[18px] text-[14px] justify-between mt-5 pb-6 border-b border-gray-400 font-tektur uppercase">
+          <span>12:00 - 14:00 am</span><span>rock concert</span><span>ben carter</span><span>new york</span>
+        </div>
+        <div
+          class="flex lg:w-[80%] w-full lg:text-[18px] text-[14px] justify-between mt-5 pb-6 border-b border-gray-400 font-tektur uppercase">
+          <span>15:00 - 17:00 am</span><span>the best jazz songs</span><span>dylan byrne</span><span>new york</span>
+        </div>
+        <div
+          class="flex lg:w-[80%] w-full lg:text-[18px] text-[14px] justify-between mt-5 pb-6 border-b border-gray-400 font-tektur uppercase">
+          <span>17:00 - 19:00 am</span><span>rock & roll concert</span><span>kate sykes</span><span>new york</span>
+        </div>
+      </section>
+    </section>
+    <section class="h-full w-full flex flex-wrap justify-center relative">
+      <div class="w-full flex flex-wrap">
+        <figure class="animate-rolling absolute justify-center items-center top-[-5%] left-[37%] hidden lg:flex z-10">
+          <img class="w-2/3" src="img/about_us.svg" alt="">
+        </figure>
+        <div class="bg-[#F1FF4F] h-[100vh] z-0 w-full lg:w-1/2 flex justify-center items-center ">
+          <figure class="w-[60%]"><img class="flex filter grayscale hover:grayscale-0 transition duration-500"
+              src="img/image-61.jpg" alt=""></figure>
+        </div>
+        <div class="bg-inherit z-20 lg:w-1/2  w-full">
+          <h4 class="text-white uppercase font-tektur px-5 py-5">who we are</h4>
+          <h2 class="text-white uppercase font-tektur px-5 text-6xl ">the biggest , most important dance music festival
+            on the planet</h2>
+          <p class="text-white capitalize font-yanone px-5 text-xl py-5">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sapiente blanditiis, deleniti illo quisquam laboriosam tempora nesciunt ex? Possimus iure
+            harum facere culpa quia ea blanditiis, ex obcaecati quibusdam? Nulla, consequatur iure. Quasi architecto
+            omnis velit maiores commodi error voluptatibus necessitatibus?</p>
+          <div
+            class=" ms-5 w-[160px] h-[50px] bg-[#93ecaa] hover:bg-[#62d882] transition duration-500 text-[#2d2d2d] font-extrabold ">
+            <a class="font-tektur uppercase flex justify-center items-center w-full h-full" href="#">buy tickets</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="h-full w-full bg-white py-20 flex flex-wrap justify-center">
+      <div class=" w-[80%] flex-wrap lg:flex-nowrap flex ">
+      <figure><img class="transition duration-500 hover:opacity-100 opacity-40" src="img/1.png" alt=""></figure>
+      <figure><img class="transition duration-500 hover:opacity-100 opacity-40" src="img/2.png" alt=""></figure>
+      <figure><img class="transition duration-500 hover:opacity-100 opacity-40" src="img/3.png" alt=""></figure>
+      <figure><img class="transition duration-500 hover:opacity-100 opacity-40" src="img/4.png" alt=""></figure>
+      <figure><img class="transition duration-500 hover:opacity-100 opacity-40" src="img/5.png" alt=""></figure>
+      <figure><img class="transition duration-500 hover:opacity-100 opacity-40" src="img/6.png" alt=""></figure></div>
+    </section>
+    <section  class="h-full w-full bg-white lg:pt-0 pt-10 pb-10 flex flex-wrap justify-center">
+      <div class="flex flex-wrap lg:w-[80%] w-full">
+        <div class="flex flex-wrap border-b-2 border-black pb-6  w-full">
+          <span class="font-tektur uppercase ">our blog</span>
+          <h2 class="font-tektur text-6xl w-full mt-3 uppercase flex flex-wrap justify-between  ">latest articles<span
+              class="cursor-pointer font-bold text-[15px] lg:mt-0 mt-3 flex items-center ">view more <i
+                class="bi-arrow-up-right"></i></span></h2>
+        </div>
+      </div>
+      <div class="flex flex-wrap lg:w-[80%] w-full justify-center">
+        <article class="lg:w-[30%] w-full mx-3 mt-10">
+          <figure class="overflow-hidden"><img class="flex transi duration-700 hover:scale-125" src="img/image-8-890x664.jpg" alt=""></figure>
+          <span class="uppercase font-yanone tracking-widest mt-2">blues</span>
+          <h3 class="uppercase font-yanone tracking-wider text-3xl mt-2">choosing a guitar for rock & roll musician</h3>
+          <span class="font-tektur me-4 capitalize text-gray-600">apr 21,2023</span><span class="font-tektur me-4 capitalize text-gray-600">0 comments</span>
+        </article>
+        <article class="lg:w-[30%] w-full mx-3 mt-10">
+          <figure class="overflow-hidden"><img class="flex transi duration-700 hover:scale-125" src="img/image-27-890x664.jpg" alt=""></figure>
+          <span class="uppercase font-yanone tracking-widest mt-2">blues</span>
+          <h3 class="uppercase font-yanone tracking-wider text-3xl mt-2">tips for those who are going to a concert</h3>
+          <span class="font-tektur me-4 capitalize text-gray-600">apr 21,2023</span><span class="font-tektur me-4 capitalize text-gray-600">0 comments</span>
+        </article>
+        <article class="lg:w-[30%] w-full mx-3 mt-10">
+          <figure class="overflow-hidden"><img class="flex transi duration-700 hover:scale-125" src="img/image-6-890x664.jpg" alt=""></figure>
+          <span class="uppercase font-yanone tracking-widest mt-2">blues</span>
+          <h3 class="uppercase font-yanone tracking-wider text-3xl mt-2">music lovers prefer to buy rickets online</h3>
+          <span class="font-tektur me-4 capitalize text-gray-600">apr 21,2023</span><span class="font-tektur me-4 capitalize text-gray-600">0 comments</span>
+        </article>
+      </div>
+    </section>
+    <footer class="h-full w-full lg:pt-0 pt-10 pb-10 flex flex-wrap justify-center ">
+      <div class="lg:w-[80%] w-full flex flex-wrap " >
+        <h2 class="lg:text-6xl text-4xl font-tektur text-white w-1/2 pt-10">we created an incredible <span class="text-gray-400">music show</span></h2>
+        <div class="w-full flex justify-between  border-b border-stone-700">
+          <ul class="flex py-5">
+            <li class="lg:me-5 text-white me-2 p-2 flex justify-center items-center hover:text-[#F1FF4F] font-yanone tracking-wider border-b border-white border-opacity-0 hover:border-opacity-100 transition duration-500 capitalize text-lg"><a class="flex justify-center items-center w-full h-full" href="">home</a></li>
+            <li class="lg:me-5 text-white me-2 p-2 flex justify-center items-center hover:text-[#F1FF4F] font-yanone tracking-wider border-b border-white border-opacity-0 hover:border-opacity-100 transition duration-500 capitalize text-lg"><a class="flex justify-center items-center w-full h-full" href="">news</a></li>
+            <li class="lg:me-5 text-white me-2 p-2 flex justify-center items-center hover:text-[#F1FF4F] font-yanone tracking-wider border-b border-white border-opacity-0 hover:border-opacity-100 transition duration-500 capitalize text-lg"><a class="flex justify-center items-center w-full h-full" href="">contact</a></li>
+            <li class="lg:me-5 text-white me-2 p-2 flex justify-center items-center hover:text-[#F1FF4F] font-yanone tracking-wider border-b border-white border-opacity-0 hover:border-opacity-100 transition duration-500 capitalize text-lg"><a class="flex justify-center items-center w-full h-full" href="">buy tickets</a></li>
+          </ul>
+          <div class="flex justify-center items-center py-5"><i class="bi-dribbble p-2 border rounded-full ms-3 text-white cursor-pointer hover:text-[#F1FF4F] hover:border-[#F1FF4F] transition duration-500"></i><i class="bi-instagram p-2 border rounded-full ms-3 text-white cursor-pointer hover:text-[#F1FF4F] hover:border-[#F1FF4F] transition duration-500"></i><i class="bi-facebook p-2 border rounded-full ms-3 text-white cursor-pointer hover:text-[#F1FF4F] hover:border-[#F1FF4F] transition duration-500"></i><i class="bi-twitter p-2 border rounded-full ms-3 text-white cursor-pointer hover:text-[#F1FF4F] hover:border-[#F1FF4F] transition duration-500"></i></div>
+        </div>
+      </div>
+      <span class="text-stone-600 text-xl pt-3">
+        Haniye Akbari © 2023. All Rights Reserved.</span>
+    </footer>
+
+  </main>
+
+</body>
+<script>
+  function pop(){
+    document.getElementById('popIn').classList.replace('right-2','right-[-100%]')
+    document.getElementById('popIn').style.transition='4s'
+    
+  }
+
+  (function () {
+    const second = 1000,
+      minute = second * 60,
+      hour = minute * 60,
+      day = hour * 24;
+
+
+    let today = new Date(),
+      dd = String(today.getDate()).padStart(2, "0"),
+      mm = String(today.getMonth() + 1).padStart(2, "0"),
+      yyyy = today.getFullYear(),
+      nextYear = yyyy + 1,
+      dayMonth = "09/30/",
+      birthday = dayMonth + yyyy;
+
+    today = mm + "/" + dd + "/" + yyyy;
+    if (today > birthday) {
+      birthday = dayMonth + nextYear;
+    }
+
+
+    const countDown = new Date(birthday).getTime(),
+      x = setInterval(function () {
+
+        const now = new Date().getTime(),
+          distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+
+        if (distance < 0) {
+          document.getElementById("headline").innerText = "It's my birthday!";
+          document.getElementById("countdown").style.display = "none";
+          document.getElementById("content").style.display = "block";
+          clearInterval(x);
+        }
+
+      }, 0)
+  }());
+
+
+</script>
+
+
+
+</html>
